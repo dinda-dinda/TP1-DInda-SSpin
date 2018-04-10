@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: arial;
+}
+
+a{
+	color: #0404B4;
+	text-decoration: none;
+}
+
+#wrapper{
+	display: flex;
+	flex-direction: column;
+	background-color: #fafafa;
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1.5% 1%;
+
+}
+
+#icono-menu{
+	margin-bottom: 2%;
+}
+
+#ico{
+	margin-left: 2%;
+}
+
+#soy{
+	color: #FF0040;
+	font-size: 1.5em;
+}
+
+nav{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+header nav a{
+	margin-left: 5%;
+}
+
+.mainContainer{
+	display: flex;
+	flex-direction: column;
+}
+
+#slider{
+	background-color: #D7DF01;
+	width: 100%;
+	height: 340px;
+	display: flex;
+	justify-content: center;
+}
+
+.linea{
+	padding: 1%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.linea article{
+	display: flex;
+	width: 33%;
+	margin-top: 1%;
+}
+
+.text{
+	padding: 2% 1%;
+	padding-left: 2%;
+	display: flex;
+	flex-direction: column;
+	width: 100%;/***con flex**/
+}
+
+.text p{
+	margin: 1.5% 0;
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2% 1%;
+}
+
+.socials{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.socials a{
+	margin-left: 3%;
+	width: 36px;
+	height: 36px;
+}
+
+#iconoFc, #iconoTw, #iconoIns, #iconoLinke, #iconoGit{
+	background-size: 36px 36px;
+}
+
+#iconoFc{	
+	background-image: url("../img/facebookGris.png");	
+}
+
+#iconoFc:hover{
+	background-image: url("../img/facebook.png");
+	background-size: 36px 36px;
+}
+
+#iconoTw{	
+	background-image: url("../img/twitterGris.png");
+}
+
+#iconoTw:hover{
+	background-image: url("../img/twitter.png");
+	background-size: 36px 36px;
+}
+
+#iconoIns{	
+	background-image: url("../img/instagramGris.png");
+}
+
+#iconoIns:hover{
+	background-image: url("../img/instagram.png");
+	background-size: 36px 36px;
+}
+
+#iconoLinke{
+	background-image: url("../img/linkedinGris.png");
+}
+
+#iconoLinke:hover{
+	background-image: url("../img/linkedin.png");
+	background-size: 36px 36px;
+}
+
+#iconoGit{
+	background-image: url("../img/githubGris.png");
+}
+
+#iconoGit:hover{
+	background-image: url("../img/github.png");
+	background-size: 36px 36px;
+}

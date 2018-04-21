@@ -1,11 +1,11 @@
 # TPUno Grupal Slider 
 Proyecto realizado con HTML, CSS Y JavaScript con diseño responsive.
 
-##Integrantes
--Daiana Indaburo.
--Soledad Spinnenhirn.
+## Integrantes
+- Daiana Indaburo.
+- Soledad Spinnenhirn.
 
-###Media queries
+### Media queries
 Para este proyecto se consideran las siguientes medidas de dispositivos para escribir media queries: 
 
 - 320x480  (mobile).

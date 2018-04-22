@@ -29,7 +29,6 @@ header {
 }
 #ico {
   margin-left: 3%;
-
 }
 
 #avatar{
@@ -64,6 +63,11 @@ nav {
   display: flex;
   flex-direction: column;
 }
+
+.textTitular{
+  width:40%;
+}
+
 #slider {
   background-color: #f7cac9;
   width: 100%;
@@ -104,23 +108,26 @@ article figure img{
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 2% 3%;
   background: silver;
 }
-h6{
-  display: flex;
-  justify-content: flex-end;
-  padding: 2% 2% 2% 2%;
- color: #fafafa;
+footer h6{
+  padding: 2%;
+  color: #fafafa;
+  width: 30%;
 }
 
 .socials {
-  width: 50%;
+  width: 30%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
+
+.socials-footer{
+  width: 67%;
+}
+
 .socials a {
   margin-left: 3%;
   width: 36px;
@@ -373,6 +380,10 @@ nav .navLink{
   margin-bottom: 0.3em;
 }
 
+.textTitular{
+  width:50%;
+}
+
 #contenidoSugerido {
   flex-direction: column;
 }
@@ -391,7 +402,8 @@ article figure img{
 }
 
 footer {
-  padding: 4% 3%;  
+  padding: 4% 2%;
+  font-size: 0.6em;  
 }
 
 footer a{
@@ -401,6 +413,9 @@ footer a{
 footer .socials a{
   width: 25px;
   height: 25px;
+}
+.socials-footer{
+  width: 50%;
 }
 
 #iconoFc,
@@ -492,5 +507,8 @@ article .text p, article .text h1{
 
 footer {
   padding: 3%;  
+}
+footer .socials{
+  width: 50%;
 }
 }

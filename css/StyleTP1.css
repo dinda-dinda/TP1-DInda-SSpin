@@ -83,6 +83,11 @@ nav {
   width: 32%;
   margin-top: 1%;
 }
+
+article figure img{
+  border-radius: 30%;
+}
+
 .text {
   padding: 2% 1%;
   padding-left: 2%;
@@ -103,6 +108,13 @@ footer {
   padding: 2% 3%;
   background: silver;
 }
+h6{
+  display: flex;
+  justify-content: flex-end;
+  padding: 2% 2% 2% 2%;
+ color: #fafafa;
+}
+
 .socials {
   width: 50%;
   display: flex;
@@ -375,7 +387,7 @@ nav .navLink{
 
 article figure img{
   width: 100%
-  border-radius: 30%;
+
 }
 
 footer {
@@ -467,7 +479,7 @@ article figure{
 
 article figure img{
   width: 100%;
-  border-radius: 20%;
+  
 }
 
 article .text{
@@ -480,4 +492,5 @@ article .text p, article .text h1{
 
 footer {
   padding: 3%;  
+}
 }
